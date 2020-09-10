@@ -1,27 +1,22 @@
 #lang scribble/manual
 @(require scribble/core racket/list)
 
-@title{Week 2: Learning Racket}
+@title{Week 2: Datalog Implementation}
 
-This week we focused on learning Racket, a functional language.
+@section{Tuesday, September 1}
 
-@section{Slides}
+Trie-based Datalog engines. We will discuss Souffle, the current
+state-of-the-art Datalog solver based on high-performance tries.
 
-@link["./slides/Racket-intro.key"]{Slides in keynote} and
-@link["./slides/Racket-intro.pdf"]{PDF}.
+@hyperlink["https://souffle-lang.github.io/pdf/cav16.pdf"]{SOUFFLE´ : On Synthesis of Program Analyzers}
 
-@section{Resources}
+@section{Thursday, September 3}
 
-Along with this week's lab and slides, I've collected some other
-resources for learning Racket. Let me know if you find anything you'd
-like to add.
+Trie-based Datalog engines achieve efficiency and scalability by
+keeping multiple copies of relations, indexed according to their usage
+within the program. This allows for an extremely fast implementation
+of joins, the core (interest) primitive from relational algebra.
 
-@itemlist[
-  @item{@link["https://docs.racket-lang.org/quick/"]{An Introduction to Racket with Pictures} is a nice tutorial and will help introduce some of the main Racket concepts, but we will quickly move past it.}
-        
-  @item{@link["https://docs.racket-lang.org/guide/"]{The Racket Guide} is a comprehensive guide to the language, and (in my mind) the main way to learn it's various features after you master the basics. However, it can be terse for those who don't have a good conceptual understanding of the language's concepts.}
-  
-  @item{@link["https://cs.uwaterloo.ca/~plragde/tyr/"]{Teach Yourself
-Racket} is another nice tutorial that covering introductory
-Racket. Note that it covers some features that we won't talk about
-this week (such as @tt{match}).}  ]
+@hyperlink["http://www.vldb.org/pvldb/vol12/p141-subotic.pdf"]{Automatic Index Selection for Large-Scale Datalog Computation}
+
+

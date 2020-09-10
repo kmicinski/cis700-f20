@@ -3,8 +3,10 @@
 
 @title[#:style '(toc unnumbered)]{Schedule / Lectures}
 
-Week lectures are sown on the table to the left...
+Weekly lectures are shown in the table on the left...
 
 @include-section{week1.scrbl}
+@include-section{week2.scrbl}
+@include-section{week3.scrbl}
 
 

@@ -3,6 +3,14 @@
 
 @title[#:style 'unnumbered]{Policies / Grading}
 
+@section{Scribing}
+
+For each lecture, I would like someone to be the "scribe." This is
+someone who writes up a terse set of notes that captures the essence
+of technical ideas in the discussion. I ask that every student
+volunteer to scribe at least once, and likely several times throughout
+the course.
+
 @section{Expectations and Policies}
 
 Class policies will heavily modulated by the global pandemic and our
